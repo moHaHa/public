@@ -1,2 +1,2 @@
-# public
-public repo for public files
+# my public repo
+public repo for my public files
