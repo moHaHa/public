@@ -1,3 +1,20 @@
+export const hero_data = {
+  timer: '2022/09/15 2:00:00',
+  infoLine1: 'W Dubai - The Palm - Jumeirah Dubai UAE',
+  infoLine2: 'November 22, 2022',
+  circle1: {
+    greenText: '500+M',
+    whiteText: 'IoT Connected Devices 1'
+  },
+  circle2: {
+    greenText: '500+M',
+    whiteText: 'IoT Connected Devices 2'
+  },
+  circle3: {
+    greenText: '500+M',
+    whiteText: 'IoT Connected Devices 3'
+  },
+}
 export const static_section_door_open = {
   component: "mh-section-title", // don't change those names evenr
   content: {
@@ -379,7 +396,7 @@ export const static_section_speech_closing = {
   text: 'Speech Closing',
   time: '21:00 - 21:10 PM'
 }
-  export const static_section_dinner = {
+export const static_section_dinner = {
   component: "mh-section-title", // don't change those names evenr
   content: {
     icon: require("@/assets/dinner-icon.svg"),
@@ -417,7 +434,7 @@ export const mh_honorary_guest_section = {
       avatar: require("@/assets/user-cyrcle.svg"),
       avatarSize: 100,
       defaultImage: false,
-      movePoints:{
+      movePoints: {
         default: { x: -50, y: 0 },
         sm: { x: 0, y: 0 },
         md: { x: 0, y: 0 },
@@ -465,7 +482,7 @@ export const mh_honorary_guest_section = {
       avatar: require("@/assets/user-cyrcle.svg"),
       avatarSize: 100,
       defaultImage: false,
-      movePoints:{
+      movePoints: {
         default: { x: 50, y: 0 },
         sm: { x: 0, y: 0 },
         md: { x: 0, y: 0 },
@@ -524,3 +541,107 @@ export const mh_honorary_guest_section = {
     },
   },
 };
+export const people = [
+  {
+    name: "name 1",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+    image:
+      "https://i.pinimg.com/564x/0c/b1/2f/0cb12f67f6dacd22728f4516eef9d2d6.jpg",
+  },
+  {
+    name: "name 2",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+    image:
+      "https://i.pinimg.com/564x/f4/ce/ba/f4ceba828f9b9770899f33a53cdaef91.jpg",
+  },
+  {
+    name: "name 3",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+
+    image:
+      "https://i.pinimg.com/236x/84/a3/5b/84a35ba61ff1b512e6867b8cfe83f82c.jpg",
+  },
+  {
+    name: "name 4",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+
+    image:
+      "https://i.pinimg.com/236x/b1/47/be/b147be309ce6a4dd1e108942988ccd5d.jpg",
+  },
+  {
+    name: "name 5",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+
+    image:
+      "https://i.pinimg.com/564x/0c/b1/2f/0cb12f67f6dacd22728f4516eef9d2d6.jpg",
+  },
+  {
+    name: "name 6",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+
+    image:
+      "https://i.pinimg.com/236x/6a/6c/bd/6a6cbd46d6385e9b6a654d2d1f073409.jpg",
+  },
+  {
+    name: "name 7",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+
+    image:
+      "https://i.pinimg.com/564x/0c/b1/2f/0cb12f67f6dacd22728f4516eef9d2d6.jpg",
+  },
+  {
+    name: "name 8",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+
+    image:
+      "https://i.pinimg.com/236x/c5/f7/6f/c5f76ffcbbd0352abefb2b63dea7f7da.jpg",
+  },
+  {
+    name: "name 9",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+
+    image:
+      "https://i.pinimg.com/564x/0c/b1/2f/0cb12f67f6dacd22728f4516eef9d2d6.jpg",
+  },
+  {
+    name: "name 10",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+
+    image:
+      "https://i.pinimg.com/564x/0c/b1/2f/0cb12f67f6dacd22728f4516eef9d2d6.jpg",
+  },
+  {
+    name: "name 11",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+
+    image:
+      "https://i.pinimg.com/564x/0c/b1/2f/0cb12f67f6dacd22728f4516eef9d2d6.jpg",
+  },
+  {
+    name: "name 12",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+
+    image:
+      "https://i.pinimg.com/236x/6a/6c/bd/6a6cbd46d6385e9b6a654d2d1f073409.jpg",
+  },
+  {
+    name: "name 13",
+    job: "job",
+    info: "info   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta asperiores dicta tempora natus. Eum harum, mollitia fugiat, non magnam ad voluptatibus id quia nesciunt iure perferendis illum laudantium! A?",
+
+    image:
+      "https://i.pinimg.com/564x/0c/b1/2f/0cb12f67f6dacd22728f4516eef9d2d6.jpg",
+  },
+]
